@@ -1,0 +1,3 @@
+[workspace]
+resolver = "3"
+members = ["crates/relaxng-rs", "crates/relaxng-syntax", "crates/relaxng-model", "crates/relaxng-validator", "crates/relaxng-cli"]
