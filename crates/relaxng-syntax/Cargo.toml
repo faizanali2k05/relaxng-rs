@@ -1,0 +1,21 @@
+[package]
+name = "relaxng-syntax"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+publish = true
+description = "RELAX NG XML syntax parser"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/faizanali2k05/relaxng-rs"
+documentation = "https://docs.rs/relaxng-syntax"
+keywords = ["relax-ng", "xml", "schema", "parser"]
+categories = ["parser-implementations"]
+readme = "README.md"
+
+[package.metadata.docs.rs]
+all-features = true
+
+[dependencies]
+relaxng-model = { path = "../relaxng-model", version = "0.1.0" }
+roxmltree = "0.20"
+thiserror = "2"

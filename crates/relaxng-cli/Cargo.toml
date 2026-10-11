@@ -1,0 +1,20 @@
+[package]
+name = "relaxng-cli"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+publish = true
+description = "Command-line RELAX NG schema checker and XML validator"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/faizanali2k05/relaxng-rs"
+documentation = "https://docs.rs/relaxng-cli"
+keywords = ["relax-ng", "xml", "schema", "cli"]
+categories = ["command-line-utilities", "parser-implementations"]
+readme = "README.md"
+
+[package.metadata.docs.rs]
+all-features = true
+
+[dependencies]
+relaxng-syntax = { path = "../relaxng-syntax", version = "0.1.0" }
+relaxng-validator = { path = "../relaxng-validator", version = "0.1.0" }
